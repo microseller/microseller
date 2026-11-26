@@ -1307,6 +1307,8 @@ const translationsEs = <String, String>{
   'helpOrderFormCtlStatus': 'Confirmado saca los artículos del stock. Pendiente todavía no.',
   'helpOrderFormCtlRecurringName': 'Pedido recurrente',
   'helpOrderFormCtlRecurring': 'Crea una copia nueva del pedido cada cierto número de días.',
+  'helpOrderFormCtlTabsName': "Pestañas de pedidos",
+  'helpOrderFormCtlTabs': "Mantén hasta 3 pedidos nuevos abiertos a la vez. + abre otro. La pestaña abierta muestra su nombre completo; las demás, 📦 y un número. ✕ cierra la abierta.",
   'helpOrderFormTip1': 'Al guardar, comparte o imprime la factura desde la hoja que se abre.',
 
   'helpCreateReturnTitle': 'Crear una devolución',

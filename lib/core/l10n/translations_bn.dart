@@ -1308,6 +1308,8 @@ const translationsBn = <String, String>{
   'helpOrderFormCtlStatus': 'কনফার্মড হলে আইটেম স্টক থেকে বের হয়। পেন্ডিংয়ে এখনো হয় না।',
   'helpOrderFormCtlRecurringName': 'পুনরাবৃত্ত অর্ডার',
   'helpOrderFormCtlRecurring': 'প্রতি কয়েক দিন পর অর্ডারের একটি নতুন কপি তৈরি করে।',
+  'helpOrderFormCtlTabsName': "অর্ডার ট্যাব",
+  'helpOrderFormCtlTabs': "একসাথে ৩টি পর্যন্ত নতুন অর্ডার খোলা রাখুন। + দিয়ে আরেকটি খুলুন। খোলা ট্যাবে পুরো নাম দেখায়, অন্যগুলোতে 📦 আর একটি নম্বর। ✕ খোলা ট্যাবটি বন্ধ করে।",
   'helpOrderFormTip1': 'সেভ করার পর যে শিট খোলে সেখান থেকে ইনভয়েস শেয়ার বা প্রিন্ট করুন।',
 
   'helpCreateReturnTitle': 'রিটার্ন তৈরি',

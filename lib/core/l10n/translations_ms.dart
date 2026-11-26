@@ -1308,6 +1308,8 @@ const translationsMs = <String, String>{
   'helpOrderFormCtlStatus': 'Disahkan mengeluarkan barang daripada stok. Tertangguh belum.',
   'helpOrderFormCtlRecurringName': 'Pesanan berulang',
   'helpOrderFormCtlRecurring': 'Mencipta salinan baharu pesanan setiap beberapa hari.',
+  'helpOrderFormCtlTabsName': "Tab pesanan",
+  'helpOrderFormCtlTabs': "Buka sehingga 3 pesanan baharu serentak. + membuka satu lagi. Tab yang dibuka menunjukkan nama penuhnya, yang lain 📦 dan nombor. ✕ menutup tab yang dibuka.",
   'helpOrderFormTip1': 'Selepas disimpan, kongsi atau cetak invois daripada helaian yang terbuka.',
 
   'helpCreateReturnTitle': 'Mencipta pemulangan',

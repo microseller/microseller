@@ -1308,6 +1308,8 @@ const translationsUr = <String, String>{
   'helpOrderFormCtlStatus': 'تصدیق شدہ ہونے پر اشیا اسٹاک سے نکلتی ہیں۔ زیر التوا میں ابھی نہیں۔',
   'helpOrderFormCtlRecurringName': 'بار بار آنے والا آرڈر',
   'helpOrderFormCtlRecurring': 'ہر کچھ دن بعد آرڈر کی نئی نقل بناتا ہے۔',
+  'helpOrderFormCtlTabsName': "آرڈر ٹیبز",
+  'helpOrderFormCtlTabs': "ایک ساتھ 3 تک نئے آرڈر کھلے رکھیں۔ + ایک اور کھولتا ہے۔ کھلا ٹیب پورا نام دکھاتا ہے، باقی 📦 اور ایک نمبر۔ ✕ کھلا ٹیب بند کرتا ہے۔",
   'helpOrderFormTip1': 'محفوظ کرنے کے بعد جو شیٹ کھلتی ہے اس سے انوائس شیئر یا پرنٹ کریں۔',
 
   'helpCreateReturnTitle': 'واپسی بنانا',

@@ -270,7 +270,7 @@ const kSectionHelp = {
   'order_form': SectionHelp(
     'helpOrderForm',
     hasTitle: true,
-    controls: ['Customer', 'Date', 'Items', 'Dozen', 'Pricing', 'Paid', 'Status', 'Recurring'],
+    controls: ['Tabs', 'Customer', 'Date', 'Items', 'Dozen', 'Pricing', 'Paid', 'Status', 'Recurring'],
     tips: 1,
   ),
   'create_return': SectionHelp(

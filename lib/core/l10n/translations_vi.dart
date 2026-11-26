@@ -1308,6 +1308,8 @@ const translationsVi = <String, String>{
   'helpOrderFormCtlStatus': 'Đã xác nhận sẽ trừ hàng khỏi kho. Chờ xử lý thì chưa.',
   'helpOrderFormCtlRecurringName': 'Đơn định kỳ',
   'helpOrderFormCtlRecurring': 'Tạo một bản sao mới của đơn sau mỗi số ngày bạn đặt.',
+  'helpOrderFormCtlTabsName': "Thẻ đơn hàng",
+  'helpOrderFormCtlTabs': "Mở tối đa 3 đơn mới cùng lúc. + mở thêm một đơn. Thẻ đang mở hiện tên đầy đủ, các thẻ khác hiện 📦 và một số. ✕ đóng thẻ đang mở.",
   'helpOrderFormTip1': 'Sau khi lưu, hãy chia sẻ hoặc in hóa đơn từ bảng hiện ra.',
 
   'helpCreateReturnTitle': 'Tạo trả hàng',

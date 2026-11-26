@@ -1308,6 +1308,8 @@ const translationsId = <String, String>{
   'helpOrderFormCtlStatus': 'Dikonfirmasi mengeluarkan barang dari stok. Tertunda belum.',
   'helpOrderFormCtlRecurringName': 'Pesanan berulang',
   'helpOrderFormCtlRecurring': 'Membuat salinan baru pesanan setiap sekian hari.',
+  'helpOrderFormCtlTabsName': "Tab pesanan",
+  'helpOrderFormCtlTabs': "Buka hingga 3 pesanan baru sekaligus. + membuka satu lagi. Tab yang terbuka menampilkan nama lengkapnya, yang lain 📦 dan nomor. ✕ menutup tab yang terbuka.",
   'helpOrderFormTip1': 'Setelah disimpan, bagikan atau cetak faktur dari lembar yang terbuka.',
 
   'helpCreateReturnTitle': 'Membuat pengembalian',

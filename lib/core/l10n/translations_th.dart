@@ -1308,6 +1308,8 @@ const translationsTh = <String, String>{
   'helpOrderFormCtlStatus': 'ยืนยันแล้วจะตัดสินค้าออกจากสต็อก รอดำเนินการยังไม่ตัด',
   'helpOrderFormCtlRecurringName': 'ออเดอร์ประจำ',
   'helpOrderFormCtlRecurring': 'สร้างสำเนาออเดอร์ใหม่ทุกกี่วันตามที่ตั้ง',
+  'helpOrderFormCtlTabsName': "แท็บคำสั่งซื้อ",
+  'helpOrderFormCtlTabs': "เปิดคำสั่งซื้อใหม่ได้พร้อมกันสูงสุด 3 รายการ + เปิดอีกรายการ แท็บที่เปิดอยู่แสดงชื่อเต็ม แท็บอื่นแสดง 📦 และหมายเลข ✕ ปิดแท็บที่เปิดอยู่",
   'helpOrderFormTip1': 'หลังบันทึก แชร์หรือพิมพ์ใบแจ้งหนี้ได้จากแผ่นที่เปิดขึ้นมา',
 
   'helpCreateReturnTitle': 'การสร้างการคืนสินค้า',

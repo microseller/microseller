@@ -1308,6 +1308,8 @@ const translationsFr = <String, String>{
   'helpOrderFormCtlStatus': 'Confirmée retire les articles du stock. En attente pas encore.',
   'helpOrderFormCtlRecurringName': 'Commande récurrente',
   'helpOrderFormCtlRecurring': 'Crée une nouvelle copie de la commande tous les tant de jours.',
+  'helpOrderFormCtlTabsName': "Onglets de commandes",
+  'helpOrderFormCtlTabs': "Gardez jusqu'à 3 nouvelles commandes ouvertes à la fois. + en ouvre une autre. L'onglet ouvert affiche son nom complet, les autres 📦 et un numéro. ✕ ferme l'onglet ouvert.",
   'helpOrderFormTip1': 'Après l\'enregistrement, partagez ou imprimez la facture depuis la feuille qui s\'ouvre.',
 
   'helpCreateReturnTitle': 'Créer un retour',

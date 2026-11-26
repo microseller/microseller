@@ -1308,6 +1308,8 @@ const translationsEn = <String, String>{
   'helpOrderFormCtlStatus': 'Confirmed takes the items out of stock. Pending doesn\'t yet.',
   'helpOrderFormCtlRecurringName': 'Recurring order',
   'helpOrderFormCtlRecurring': 'Creates a new copy of the order every so many days.',
+  'helpOrderFormCtlTabsName': "Order tabs",
+  'helpOrderFormCtlTabs': "Keep up to 3 new orders open at once. + opens another. The open tab shows its full name, the others 📦 and a number. ✕ closes the open one.",
   'helpOrderFormTip1': 'After saving, share or print the invoice from the sheet that opens.',
 
   'helpCreateReturnTitle': 'Creating a return',

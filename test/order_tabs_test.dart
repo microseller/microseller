@@ -73,7 +73,7 @@ void main() {
     expect(find.text('Order 1'), findsNothing);
     await tester.tap(plus());
     await settle(tester);
-    expect(find.text('1'), findsOneWidget);
+    expect(find.text('📦 1'), findsOneWidget);
     expect(find.text('Order 2'), findsOneWidget);
     // Only the open tab has a close button.
     expect(find.byTooltip('Close this order?'), findsOneWidget);
@@ -87,8 +87,8 @@ void main() {
     await settle(tester);
     // The open tab is named in full, the others by number.
     expect(find.text('Order 3'), findsOneWidget);
-    expect(find.text('1'), findsOneWidget);
-    expect(find.text('2'), findsOneWidget);
+    expect(find.text('📦 1'), findsOneWidget);
+    expect(find.text('📦 2'), findsOneWidget);
     expect(plus(), findsNothing);
     expect(find.byType(OrderFormScreen, skipOffstage: false), findsNWidgets(3));
   });
@@ -99,9 +99,9 @@ void main() {
     await tester.tap(plus());
     await settle(tester);
     expect(tester.state(find.byType(OrderFormScreen)), isNot(same(first)));
-    await tester.ensureVisible(find.text('1'));
+    await tester.ensureVisible(find.text('📦 1'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('1'));
+    await tester.tap(find.text('📦 1'));
     await settle(tester);
     expect(tester.state(find.byType(OrderFormScreen)), same(first));
   });
@@ -124,7 +124,7 @@ void main() {
     await settle(tester);
     await tester.tap(find.text('Confirm'));
     await settle(tester);
-    expect(find.text('2'), findsNothing);
+    expect(find.text('📦 2'), findsNothing);
     expect(find.byType(OrderFormScreen, skipOffstage: false), findsOneWidget);
   });
 
@@ -135,9 +135,9 @@ void main() {
     await tester.tap(plus());
     await settle(tester);
     final third = tester.state(find.byType(OrderFormScreen)); // tab 3 is open
-    await tester.ensureVisible(find.text('2'));
+    await tester.ensureVisible(find.text('📦 2'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('2'));
+    await tester.tap(find.text('📦 2'));
     await settle(tester);
     final second = tester.state(find.byType(OrderFormScreen));
     await tester.ensureVisible(find.byTooltip('Close this order?'));
@@ -147,7 +147,7 @@ void main() {
     await tester.tap(find.text('Confirm'));
     await settle(tester);
     // The old tab 3 is now "Order 2", with its own form, and it's open.
-    expect(find.text('3'), findsNothing);
+    expect(find.text('📦 3'), findsNothing);
     expect(find.text('Order 2'), findsOneWidget);
     expect(second.mounted, isFalse);
     expect(tester.state(find.byType(OrderFormScreen)), same(third));

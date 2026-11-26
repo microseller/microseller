@@ -1308,6 +1308,8 @@ const translationsTr = <String, String>{
   'helpOrderFormCtlStatus': 'Onaylandı ürünleri stoktan düşer. Beklemede henüz düşmez.',
   'helpOrderFormCtlRecurringName': 'Tekrarlayan sipariş',
   'helpOrderFormCtlRecurring': 'Belirli gün aralığıyla siparişin yeni bir kopyasını oluşturur.',
+  'helpOrderFormCtlTabsName': "Sipariş sekmeleri",
+  'helpOrderFormCtlTabs': "Aynı anda en fazla 3 yeni sipariş açık tutun. + bir tane daha açar. Açık sekme tam adını, diğerleri 📦 ve bir numara gösterir. ✕ açık olanı kapatır.",
   'helpOrderFormTip1': 'Kaydettikten sonra açılan sayfadan faturayı paylaşın veya yazdırın.',
 
   'helpCreateReturnTitle': 'İade oluşturma',

@@ -1307,6 +1307,8 @@ const translationsAr = <String, String>{
   'helpOrderFormCtlStatus': 'مؤكد يخرج الأصناف من المخزون. معلق لا يفعل ذلك بعد.',
   'helpOrderFormCtlRecurringName': 'طلب متكرر',
   'helpOrderFormCtlRecurring': 'ينشئ نسخة جديدة من الطلب كل عدد من الأيام.',
+  'helpOrderFormCtlTabsName': "علامات تبويب الطلبات",
+  'helpOrderFormCtlTabs': "أبقِ حتى 3 طلبات جديدة مفتوحة معًا. + يفتح طلبًا آخر. يظهر التبويب المفتوح باسمه الكامل، والبقية 📦 مع رقم. ✕ يغلق التبويب المفتوح.",
   'helpOrderFormTip1': 'بعد الحفظ، شارك الفاتورة أو اطبعها من الورقة التي تُفتح.',
 
   'helpCreateReturnTitle': 'إنشاء مرتجع',

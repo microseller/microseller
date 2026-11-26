@@ -1308,6 +1308,8 @@ const translationsPt = <String, String>{
   'helpOrderFormCtlStatus': 'Confirmado tira os itens do estoque. Pendente ainda não.',
   'helpOrderFormCtlRecurringName': 'Pedido recorrente',
   'helpOrderFormCtlRecurring': 'Cria uma cópia nova do pedido a cada tantos dias.',
+  'helpOrderFormCtlTabsName': "Abas de pedidos",
+  'helpOrderFormCtlTabs': "Mantenha até 3 pedidos novos abertos ao mesmo tempo. + abre outro. A aba aberta mostra o nome completo; as outras, 📦 e um número. ✕ fecha a aberta.",
   'helpOrderFormTip1': 'Depois de salvar, compartilhe ou imprima a fatura na folha que abrir.',
 
   'helpCreateReturnTitle': 'Criar uma devolução',
